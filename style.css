@@ -21,7 +21,10 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, var(--background01), var(--background02));
+    height: 100vh;
+    background: white url("data/background/field.jpg") center center no-repeat fixed;
+    /*shorthand background --> color > image > position > repeat > [size] > attachment*/
+    background-size: cover;
 }
 
 header{
@@ -63,9 +66,8 @@ header a:hover{
 }
 
 .navbar{
-    width: 100%;
     height: 90px;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0;
     display: flex;
     align-items: center;
@@ -95,7 +97,7 @@ main{
     padding: 50px;  
 
     min-width: 280px;
-    max-width: 1200px;
+    max-width: 800px;
 
     margin: auto;
     margin-bottom: 15px;
