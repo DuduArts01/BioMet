@@ -50,6 +50,8 @@ body{
 
 .nav_header{
     gap: 2em;
+    font-family: var(--font_main);
+    font-size: 0.8em;
 }
 
 .nav_header a{
