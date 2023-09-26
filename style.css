@@ -39,6 +39,10 @@ body{
     align-items: center;
 }
 
+header{
+    width: 100%;
+}
+
 .header{
     background-image: linear-gradient(var(--header01), var(--header02));
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.308);
