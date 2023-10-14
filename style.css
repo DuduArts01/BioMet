@@ -54,7 +54,7 @@ header{
 .nav_header{
     gap: 2em;
     font-family: var(--font_main);
-    font-size: 80%;
+    font-size: 1em;
 }
 
 .nav_header a{
@@ -202,4 +202,8 @@ h1#menu{
     margin-left: 50px;
 }
 
-
+@media(max-width: 600px){
+    .nav_header{
+        font-size: 0.5em;
+    }
+}
