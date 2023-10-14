@@ -204,6 +204,6 @@ h1#menu{
 
 @media(max-width: 600px){
     .nav_header{
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
